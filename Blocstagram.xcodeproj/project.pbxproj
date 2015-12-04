@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2E0219241C110202000CFBEE /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0219231C110202000CFBEE /* DataSource.m */; };
+		2E0219271C115752000CFBEE /* MediaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0219261C115752000CFBEE /* MediaTableViewCell.m */; };
 		2E303A531C0CB2B000B6A491 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E303A521C0CB2B000B6A491 /* main.m */; };
 		2E303A561C0CB2B000B6A491 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E303A551C0CB2B000B6A491 /* AppDelegate.m */; };
 		2E303A5E1C0CB2B000B6A491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E303A5D1C0CB2B000B6A491 /* Assets.xcassets */; };
@@ -50,6 +51,8 @@
 /* Begin PBXFileReference section */
 		2E0219221C110202000CFBEE /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
 		2E0219231C110202000CFBEE /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		2E0219251C115752000CFBEE /* MediaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaTableViewCell.h; sourceTree = "<group>"; };
+		2E0219261C115752000CFBEE /* MediaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaTableViewCell.m; sourceTree = "<group>"; };
 		2E303A4E1C0CB2B000B6A491 /* Blocstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blocstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E303A521C0CB2B000B6A491 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E303A541C0CB2B000B6A491 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -143,6 +146,8 @@
 				2E303AA31C0F5F6400B6A491 /* Comment.m */,
 				2E0219221C110202000CFBEE /* DataSource.h */,
 				2E0219231C110202000CFBEE /* DataSource.m */,
+				2E0219251C115752000CFBEE /* MediaTableViewCell.h */,
+				2E0219261C115752000CFBEE /* MediaTableViewCell.m */,
 				2E303A5D1C0CB2B000B6A491 /* Assets.xcassets */,
 				2E303A5F1C0CB2B000B6A491 /* LaunchScreen.storyboard */,
 				2E303A621C0CB2B000B6A491 /* Info.plist */,
@@ -336,6 +341,7 @@
 			files = (
 				2E303A9E1C0F5AAF00B6A491 /* User.m in Sources */,
 				2E303AA41C0F5F6400B6A491 /* Comment.m in Sources */,
+				2E0219271C115752000CFBEE /* MediaTableViewCell.m in Sources */,
 				2E303AA11C0F5B3A00B6A491 /* Media.m in Sources */,
 				2E303A561C0CB2B000B6A491 /* AppDelegate.m in Sources */,
 				2E0219241C110202000CFBEE /* DataSource.m in Sources */,

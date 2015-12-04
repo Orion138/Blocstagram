@@ -10,7 +10,8 @@
 
 @interface DataSource : NSObject
 
-+(instancetype) sharedInstance;
++ (instancetype) sharedInstance;
+
 @property (nonatomic, strong, readonly) NSArray *mediaItems;
 
 @end
