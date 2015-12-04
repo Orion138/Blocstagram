@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E0219241C110202000CFBEE /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0219231C110202000CFBEE /* DataSource.m */; };
 		2E303A531C0CB2B000B6A491 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E303A521C0CB2B000B6A491 /* main.m */; };
 		2E303A561C0CB2B000B6A491 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E303A551C0CB2B000B6A491 /* AppDelegate.m */; };
 		2E303A5E1C0CB2B000B6A491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E303A5D1C0CB2B000B6A491 /* Assets.xcassets */; };
@@ -24,6 +25,9 @@
 		2E303A971C0CBB8000B6A491 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E303A8D1C0CBB8000B6A491 /* 9.jpg */; };
 		2E303A981C0CBB8000B6A491 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E303A8E1C0CBB8000B6A491 /* 10.jpg */; };
 		2E303A9B1C0CBCA200B6A491 /* ImagesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E303A9A1C0CBCA200B6A491 /* ImagesTableViewController.m */; };
+		2E303A9E1C0F5AAF00B6A491 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E303A9D1C0F5AAF00B6A491 /* User.m */; };
+		2E303AA11C0F5B3A00B6A491 /* Media.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E303AA01C0F5B3A00B6A491 /* Media.m */; };
+		2E303AA41C0F5F6400B6A491 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E303AA31C0F5F6400B6A491 /* Comment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E0219221C110202000CFBEE /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		2E0219231C110202000CFBEE /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
 		2E303A4E1C0CB2B000B6A491 /* Blocstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blocstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E303A521C0CB2B000B6A491 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E303A541C0CB2B000B6A491 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,6 +75,12 @@
 		2E303A8E1C0CBB8000B6A491 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
 		2E303A991C0CBCA200B6A491 /* ImagesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesTableViewController.h; sourceTree = "<group>"; };
 		2E303A9A1C0CBCA200B6A491 /* ImagesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesTableViewController.m; sourceTree = "<group>"; };
+		2E303A9C1C0F5AAF00B6A491 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = ../User.h; sourceTree = "<group>"; };
+		2E303A9D1C0F5AAF00B6A491 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = ../User.m; sourceTree = "<group>"; };
+		2E303A9F1C0F5B3A00B6A491 /* Media.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Media.h; sourceTree = "<group>"; };
+		2E303AA01C0F5B3A00B6A491 /* Media.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Media.m; sourceTree = "<group>"; };
+		2E303AA21C0F5F6400B6A491 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		2E303AA31C0F5F6400B6A491 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +135,14 @@
 				2E303A551C0CB2B000B6A491 /* AppDelegate.m */,
 				2E303A991C0CBCA200B6A491 /* ImagesTableViewController.h */,
 				2E303A9A1C0CBCA200B6A491 /* ImagesTableViewController.m */,
+				2E303A9C1C0F5AAF00B6A491 /* User.h */,
+				2E303A9D1C0F5AAF00B6A491 /* User.m */,
+				2E303A9F1C0F5B3A00B6A491 /* Media.h */,
+				2E303AA01C0F5B3A00B6A491 /* Media.m */,
+				2E303AA21C0F5F6400B6A491 /* Comment.h */,
+				2E303AA31C0F5F6400B6A491 /* Comment.m */,
+				2E0219221C110202000CFBEE /* DataSource.h */,
+				2E0219231C110202000CFBEE /* DataSource.m */,
 				2E303A5D1C0CB2B000B6A491 /* Assets.xcassets */,
 				2E303A5F1C0CB2B000B6A491 /* LaunchScreen.storyboard */,
 				2E303A621C0CB2B000B6A491 /* Info.plist */,
@@ -314,7 +334,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E303A9E1C0F5AAF00B6A491 /* User.m in Sources */,
+				2E303AA41C0F5F6400B6A491 /* Comment.m in Sources */,
+				2E303AA11C0F5B3A00B6A491 /* Media.m in Sources */,
 				2E303A561C0CB2B000B6A491 /* AppDelegate.m in Sources */,
+				2E0219241C110202000CFBEE /* DataSource.m in Sources */,
 				2E303A531C0CB2B000B6A491 /* main.m in Sources */,
 				2E303A9B1C0CBCA200B6A491 /* ImagesTableViewController.m in Sources */,
 			);
@@ -534,6 +558,7 @@
 				2E303A7D1C0CB2B000B6A491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E303A7E1C0CB2B000B6A491 /* Build configuration list for PBXNativeTarget "BlocstagramTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +567,7 @@
 				2E303A801C0CB2B000B6A491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E303A811C0CB2B000B6A491 /* Build configuration list for PBXNativeTarget "BlocstagramUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +576,7 @@
 				2E303A831C0CB2B000B6A491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
